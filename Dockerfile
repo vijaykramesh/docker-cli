@@ -1,5 +1,4 @@
-FROM node:carbon-slim
+FROM node:8.15-stretch-slim
 
-RUN npm i -g @testim/testim-cli
-
+RUN yarn global add @testim/testim-cli
 ENTRYPOINT ["testim"]
