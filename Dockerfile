@@ -1,4 +1,4 @@
-FROM node:8.15-stretch-slim
+FROM node:10.20-stretch-slim
 
 RUN yarn global add @testim/testim-cli
 
