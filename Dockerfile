@@ -1,4 +1,4 @@
-FROM node:10.20-stretch-slim
+FROM node:12.22.1-stretch-slim
 
 RUN apt-get -qq update \
   && apt-get install --no-install-recommends -qqy \ 
