@@ -1,4 +1,4 @@
-FROM node:12.22.1-stretch-slim
+FROM node:16.15.1-stretch-slim
 
 RUN apt-get -qq update \
   && apt-get install --no-install-recommends -qqy \ 
